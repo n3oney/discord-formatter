@@ -1,4 +1,4 @@
-import { formatTimestamp, TimestampStyle } from '../src/index';
+import { formatTimestamp, TimestampStyle } from '../src/discord-formatter';
 
 let date = new Date();
 let num = 0;

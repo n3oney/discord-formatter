@@ -1,4 +1,4 @@
-import { formatEmoji } from '../src/index';
+import { formatEmoji } from '../src/discord-formatter';
 
 test('correctly formats normal', () => {
     expect(formatEmoji('mmLol', '216154654256398347')).toEqual('<:mmLol:216154654256398347>');

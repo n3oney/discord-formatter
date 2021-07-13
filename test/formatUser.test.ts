@@ -1,4 +1,4 @@
-import { formatUser } from '../src/index';
+import { formatUser } from '../src/discord-formatter';
 
 test('correctly formats with no nickname', () => {
     expect(formatUser('80351110224678912')).toEqual('<@80351110224678912>');
