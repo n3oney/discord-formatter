@@ -1,0 +1,41 @@
+{
+  "name": "discord-formatter",
+  "version": "1.0.0",
+  "description": "A package that lets you easily format Discord messages.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3oney/discord-formatter.git"
+  },
+  "keywords": [
+    "discord",
+    "formatter",
+    "discord formatting",
+    "discord.js",
+    "timestamp"
+  ],
+  "author": "Michał Minarowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n3oney/discord-formatter/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
